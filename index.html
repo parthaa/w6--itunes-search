@@ -3,15 +3,24 @@
     <link rel="stylesheet" type="text/css" href="main.css"/>
 </head>
   <body>
+
+    <div>
+      <audio id = "player" controls>
+        <source id = "audio" src="" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+    </div>
+
     <div class="search">
       <input type="text" id = "search-bar" />
       <button type="button" id="search-button" value="search">search</button>
     </div>
 
     <div id="search-results">
-
+      <ul id = "results">
+      </ul>
     </div>
-      <script src="main.js"></script>
-    </div>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
   <body>
 </html>
